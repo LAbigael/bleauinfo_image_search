@@ -1,8 +1,11 @@
 {
   "name": "Image bleau info search",
-  "description": "Add bloc thumbnail to bleau info search page",
+  "description": "Add boulder thumbnail to bleau.info boulders list",
   "version": "0.1",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
   "action": {
     "default_icon": {
       "16": "images/icon-32.png",
@@ -10,6 +13,12 @@
       "48": "images/icon-32.png",
       "128": "images/icon-32.png"
     }
+  },
+  "icons": {
+    "16": "images/icon-32.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-32.png",
+    "128": "images/icon-32.png"
   },
   "background": {
     "service_worker": "background.js"
